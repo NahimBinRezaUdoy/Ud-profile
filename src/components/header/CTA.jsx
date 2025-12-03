@@ -1,5 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
 import { FaDownload, FaEnvelope, FaLinkedin, FaGithub, FaCode } from 'react-icons/fa'
 import { IoDocumentText } from 'react-icons/io5'
 import './header.css'
@@ -75,14 +74,6 @@ const CTA = () => {
           <div className="social-badge">View</div>
         </a>
       </div>
-=======
-import CV from '../../assets/NahimBinRezaUdoy.pdf'
-const CTA = () => {
-  return (
-    <div className='cta'>
-        <a href={CV}  className="btn" target="_blank">Download CV</a>
-        <a href="#contact" className="btn btn-primary" >Let's Talk</a>
->>>>>>> origin/master
     </div>
   )
 }

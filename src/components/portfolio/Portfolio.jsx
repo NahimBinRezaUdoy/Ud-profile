@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import React, { useState } from 'react'
-=======
-import React from 'react'
->>>>>>> origin/master
 import './portfolio.css'
 
 import MovieDesign from '../../assets/movieDesign.jpg'
@@ -14,18 +10,13 @@ import DigitalClassroom from '../../assets/digitalClassroom.PNG'
 import Movie from '../../assets/movie.PNG'
 import PostShare from '../../assets/weshare.PNG'
 import Survey from '../../assets/survey.PNG'
-<<<<<<< HEAD
 import DemoProfile from '../../assets/demoProfile1.png'
 import FinanceNextVerseSkill from '../../assets/FinanceNextVerseSkill.png'
 import HolidayZoon from '../../assets/holidayZoon.png'
-=======
-
->>>>>>> origin/master
 
 const data = [
   {
     id: 1,
-<<<<<<< HEAD
     image: DonationNation,
     title: 'DonationNation - Social Platform',
     description: 'Full-featured social donation platform with user profiles, donations, and community features',
@@ -103,66 +94,10 @@ const data = [
     demo: 'https://udoyportfolio1.netlify.app/',
     tags: ['HTML', 'CSS', 'JavaScript', 'Portfolio'],
     featured: true
-=======
-    image: MovieDesign,
-    title: 'Movie Website',
-    github: 'https://github.com/NahimBinRezaUdoy/MovieWebsiteDesign',
-    demo: 'https://udmovie.netlify.app/'
-  },
-  {
-    id: 2,
-    image: PortfolioWeb,
-    title: 'This is My Portfolio',
-    github: 'https://github.com/NahimBinRezaUdoy/MyResume',
-    demo: 'https://nahimudoy.netlify.app/',
-  },
-  {
-    id: 3,
-    image: Resume,
-    title: 'This is My Resume',
-    github: 'https://github.com/NahimBinRezaUdoy/ResumeDesign',
-    demo: 'https://nahimresume.netlify.app/',
-  },
-  {
-    id: 4,
-    image: DarkClub,
-    title: 'DarkClub Website (Design)',
-    github: 'https://github.com/NahimBinRezaUdoy/DarkClub',
-    demo: 'https://darkclub.netlify.app/',
-  },
-  {
-    id: 5,
-    image: DonationNation,
-    title: 'Socail Website(Laravel)',
-    github: 'https://github.com/NahimBinRezaUdoy/DonationNation',
-    demo: 'https://www.youtube.com/watch?v=H7gUID97xOo',
-  },
-  {
-    id: 6,
-    image: DigitalClassroom,
-    title: 'Online Education System',
-    github: 'https://github.com/NahimBinRezaUdoy/Education-Server',
-    demo: '#',
-  },
-  {
-    id: 7,
-    image: Movie,
-    title: 'Movie Website (Laravel)',
-    github: 'https://github.com/NahimBinRezaUdoy/MovieApp',
-    demo: 'https://www.youtube.com/watch?v=MYBY-AKorJw',
-  },
-  {
-    id: 8,
-    image: PostShare,
-    title: 'Post Shareing App (Laravel)',
-    github: 'https://github.com/NahimBinRezaUdoy/WeShare',
-    demo: 'https://www.youtube.com/watch?v=NTmgIBxfSAs',
->>>>>>> origin/master
   },
   {
     id: 9,
     image: Survey,
-<<<<<<< HEAD
     title: 'Survey System',
     description: 'Survey creation and management system with analytics dashboard',
     github: 'https://github.com/NahimBinRezaUdoy/WeShare',
@@ -399,37 +334,6 @@ const Portfolio = () => {
             </div>
           )}
         </div>
-=======
-    title: 'Survey Website (Laravel)',
-    github: 'https://github.com/NahimBinRezaUdoy/WeShare',
-    demo: 'https://www.youtube.com/watch?v=NTmgIBxfSAs',
-  },
-]
-
-const Portfolio = () => {
-  return (
-    <section id='portfolio'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
-
-      <div className="container portfolio__container">
-        {
-          data.map(({id, image, title, github, demo}) => {
-            return (
-            <article key={id} className='portfolio__item'>
-              <div className="portfolio__item-image">
-                <img src={image} alt={title} />
-              </div>
-              <h3>{title}</h3>
-              <div className="portfolio__item-cta">
-                <a href={github} className='btn' target="_blank" >Github</a>
-                <a href={demo} className='btn btn-primary' target="_blank" >Live Demo</a>  
-              </div>
-            </article>
-            )
-          })
-        }
->>>>>>> origin/master
       </div>
     </section>
   )

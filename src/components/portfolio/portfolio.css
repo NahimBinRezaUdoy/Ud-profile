@@ -36,7 +36,6 @@
   margin-bottom: 1rem;
 }
 
-<<<<<<< HEAD
 
 /* Portfolio Toggle Button */
 .portfolio__toggle {
@@ -657,8 +656,6 @@
   }
 }
 
-=======
->>>>>>> origin/master
 /*=========Media Queries (Medium Devices)===============*/
 @media screen and (max-width: 1024px) {
   .portfolio__container {
