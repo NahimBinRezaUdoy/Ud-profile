@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8bd3de9c.css",
+    "main.js": "/static/js/main.3ec8623f.js",
+    "static/media/donation.PNG": "/static/media/donation.72ab539090d953a6c979.PNG",
+    "static/media/aboutMe.jpeg": "/static/media/aboutMe.ef5dabd459f7199ac15a.jpeg",
+    "static/media/holidayZoon.png": "/static/media/holidayZoon.b141eedb09f41e12d467.png",
+    "static/media/movie.PNG": "/static/media/movie.ad705ba86c0391d357ec.PNG",
+    "static/media/portfolioWeb.jpg": "/static/media/portfolioWeb.f2555fb9dce6dfe48d53.jpg",
+    "static/media/weshare.PNG": "/static/media/weshare.3aac6bafa16faf71fbe1.PNG",
+    "static/media/demoProfile1.png": "/static/media/demoProfile1.ddfcbef0aa4eeb76b14a.png",
+    "static/media/FinanceNextVerseSkill.png": "/static/media/FinanceNextVerseSkill.925f534f87e790c11c8a.png",
+    "static/media/digitalClassroom.PNG": "/static/media/digitalClassroom.c358e5e82d4843dad318.PNG",
+    "static/media/movieDesign.jpg": "/static/media/movieDesign.3cab20b950ac0ff56bad.jpg",
+    "static/media/resume.jpg": "/static/media/resume.a91f7925de983cd94ffa.jpg",
+    "static/media/darkClub.jpg": "/static/media/darkClub.11edd284b52cc8c3e118.jpg",
+    "static/media/survey.PNG": "/static/media/survey.4e9d5968eb5bf5acd5b1.PNG",
+    "index.html": "/index.html",
+    "main.8bd3de9c.css.map": "/static/css/main.8bd3de9c.css.map",
+    "main.3ec8623f.js.map": "/static/js/main.3ec8623f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bd3de9c.css",
+    "static/js/main.3ec8623f.js"
+  ]
+}
